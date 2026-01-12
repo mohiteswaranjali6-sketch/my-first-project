@@ -1,0 +1,63 @@
+/* Basic body styling and background */
+body {
+    background: linear-gradient(135deg, #f9f7fb, #2575fc); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container for centering the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Form Box Design */
+.form-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading Style */
+h2 {
+    text-align: center;
+    color: #6a11cb;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Form Controls (inputs and labels) */
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Custom Button Styling */
+.btn-custom {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

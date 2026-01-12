@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie - Admin Panel</title>
+    <link rel="stylesheet" href="add_movie.css">
+</head>
+<style>
+    .container {
+    width: 40%;
+    background-color: rgb(164, 67, 151);
+    padding-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center; /* Align text to the left for better readability */
+}
+    </style>
+<body>
+    <div class="container">
+        <h2 style="color: rgb(16, 16, 17);">Add Movie</h2>
+        <form action="add_movie.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="title" placeholder="Movie Title" required>
+            <input type="text" name="genre" placeholder="Genre" required>
+            <input type="number" name="duration" placeholder="Duration (minutes)" required>
+            <input type="date" name="release_date" required>
+            <input type="text" name="language" placeholder="Language" required>
+            <input type="file" name="poster" required>
+            <button type="submit">Add Movie</button>
+        </form>
+        <a href="view_movies.php" class="link">View Movies</a>
+    </div>
+</body>
+</html>

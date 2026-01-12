@@ -1,0 +1,103 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#f9f7fb, #2575fc); /* Lighter background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:50px ; /* Full screen height */
+}
+
+/* Container Styling */
+.container {
+    width: 40%;
+    background-color: rgb(193, 113, 181);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center; /* Align text to the left for better readability */
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 32px; /* Larger heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input and Textarea Fields */
+input, select, textarea {
+    width: 50%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #cce9eb;
+    
+}
+
+/* Input Focus Styling */
+input:focus, select:focus, textarea:focus {
+    border-color: #28a745; /* Green border when focused */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Styling */
+button:hover {
+    background-color: #218838;
+}
+
+/* Link Styling */
+.link {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #084e98;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    input, select, textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
